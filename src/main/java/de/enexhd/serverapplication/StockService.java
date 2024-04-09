@@ -6,11 +6,11 @@ import java.util.ArrayList;
 import java.util.Optional;
 
 @Component
-public class APIHandler {
+public class StockService {
 
     private ArrayList<Stock> stocks;
 
-    public APIHandler() {
+    public StockService() {
         stocks = new ArrayList<>();
         stocks.add(new Stock("AAPL", 15482));
         stocks.add(new Stock("MSF", 39045));
